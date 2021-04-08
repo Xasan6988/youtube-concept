@@ -3,13 +3,16 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .header {
   display: flex;
   align-items: center;
   padding: 20px 70px 20px 32px;
+  margin-bottom: 30px;
 }
 
 .menu-button {
@@ -47,7 +50,6 @@ body {
   border-radius: 22px;
   .input-search {
     padding: 12px 23px;
-    max-width: 830px;
     width: 100%;
     background-color: transparent;
     border: none;
@@ -90,4 +92,47 @@ body {
     border-radius: 50%;
   }
 }
+.side-bar {
+  padding-left: 32px;
+  .nav-menu {
+    margin-top: 0;
+    margin-bottom: 60px;
+    padding-left: 0;
+    list-style: none;
+  }
+  .nav-item {
+    margin-bottom: 28px;
+    .icon {
+      opacity: .24;
+    }
+  }
+  .nav-link {
+    display: flex;
+    align-items: center;
+    color: #898989;
+    text-decoration: none;
+    &:hover {
+      color: #ff0000;
+    }
+    &:hover .icon {
+      fill: #ff0000;
+      opacity: 1;
+    }
+  }
+  .nav-text {
+    margin-left: 13px;
+  }
+  .nav-image {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+  }
+  .nav-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 30px;
+  }
+}
+
 
