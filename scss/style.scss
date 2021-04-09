@@ -77,11 +77,11 @@ body {
   }
 }
 
-.icons-menu {
+.controls-menu {
   display: flex;
   align-items: center;
   margin-left: auto;
-  .icons-link {
+  .controls-link {
     text-decoration: none;
     opacity: .24;
     &:not(:last-child) {
@@ -493,7 +493,7 @@ body {
 }
 
 @media (max-width: 860px) {
-  .icons-menu {
+  .controls-menu {
     display: none;
   }
   .user {
